@@ -9,10 +9,16 @@ hash per line for tools such as Hashcat or hashID.
 Python 3.10 or newer is required. There are no runtime dependencies.
 
 ```sh
+uv tool install git+https://github.com/soloclz/extract-hashes.git
+extract-hashes --help
+```
+
+For development or an editable local checkout:
+
+```sh
 git clone https://github.com/soloclz/extract-hashes.git
 cd extract-hashes
 uv tool install .
-extract-hashes --help
 ```
 
 `pipx install .` is also supported. After updating the checkout, use
