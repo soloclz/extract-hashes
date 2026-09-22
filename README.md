@@ -25,6 +25,14 @@ uv tool install .
 `uv tool install --force .` or `pipx reinstall extract-hashes` to deploy the new
 version.
 
+On Kali, the same checkout-based pipx workflow used by `bhq` is:
+
+```sh
+git clone https://github.com/soloclz/extract-hashes.git ~/tools/extract-hashes
+pipx install ~/tools/extract-hashes
+extract-hashes --help
+```
+
 For development, run `uv sync --extra dev`, then `uv run pytest -q`.
 
 ## Usage
