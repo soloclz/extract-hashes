@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Evidence and recovered credentials
+evidence/
+loot/
+hashes.txt
+*.potfile
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
